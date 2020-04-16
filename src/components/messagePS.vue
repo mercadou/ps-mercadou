@@ -70,7 +70,7 @@
               "getFavoritePokemon"
             </p>
             <center>
-              <v-btn @click="getFavoritePokemon()" color="orange" text>
+              <v-btn @click="getFavoritePokemon()" color="red" text>
                 getFavoritePokemon
               </v-btn>
             </center>
@@ -105,15 +105,13 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <p class="text-justify">
-              Han Solo (https://swapi.co/api/people/14/) está levando 99% da
-              capacidade da Nave Millennium Falcon
-              (https://swapi.co/api/starships/10/) em carga, ele vai pousar em
-              um planeta aleatório e pegar 6 passageiros, 5 passageiros são
-              personagens aleatórios do filme: "A nova esperança"
-              (https://swapi.co/api/films/1/), sendo que você, é o sexto
-              passageiro. O desafio é consumir todas essas informações da api,
-              ter uma entrada de dado que é referente ao seu peso e verificar se
-              a Nave excedeu o capacidade limite.
+              A região de Kanto foi a primeira região conhecida da história de Pokemon,
+              e assim como outras regiões, tem sua pokedex própria: (https://pokeapi.co/api/v2/pokedex/2/).
+              Uma pokedex nada mais é do que uma enciclopédia virtual portátil que os treinadores pokemon
+              transportam para registro e consulta de pokemon (https://pokeapi.co/api/v2/pokemon/{nomeOuNumero}/).
+              O desafio é consumir as informações da API e montar sua própria Pokedex da região de Kanto
+              com todas as informações que achar relevante, com um filtro de pokemon pelo tipo (https://pokeapi.co/api/v2/type/{id}/),
+              sinta-se livre para adicionar quantos outros filtros quiser.
             </p>
             <li>
               - Você tem que usar javascript para realizar esse desafio, pode
@@ -124,21 +122,20 @@
               etapa;
             </li>
             <li>
-              - Deve haver um campo de entrada para informar seu peso;
-            </li>
-            <li>
-              - Considere, que todos os valores referente a peso na SWAPI são em
-              KG;
-            </li>
-            <li>
               - Você pode fazer uma pagina web para mostrar o resultado do
               desafio, você está livre pra usar a criatividade de como vai
               resolver o problema seguindo as instruções;
             </li>
             <li>
+              - Lembre-se que o objeto "types" dentro da resposta de Pokemon possui as URLs dos tipos do pokemon que pode ser consultado na API type para mais informações.
+            </li>
+            <li>
+              - Os Ids de tipos vão de 1 até 18, parte do desafio é identificar e tratar nome e Id dos tipos.
+            </li>
+            <li>
               - O código deve ser enviado para o email:
               <b>maia@mercadou.com.br</b> contendo o link do repositório do
-              projeto. Para evitar cola, seguerimos que você coloque o nome do
+              projeto. Para evitar cola, sugerimos que você coloque o nome do
               seu repositório usando a seguinte codificação: Meu nome é Gustavo
               Garcia, meu repositório vai ficar: <b>Gust4v0G4rci4</b>
             </li>

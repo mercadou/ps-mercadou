@@ -10,7 +10,7 @@ import messagePS from "./components/messagePS"
 export default {
   created() {
     // Deixar o tema no modo escuro
-    this.$vuetify.theme.dark = true;
+    this.$vuetify.theme.dark = false;
   },
   components: { messagePS }
 };
@@ -21,13 +21,13 @@ export default {
 html,
 h1,
 h3 {
-  color: orange;
+  color: red;
 }
 .found {
   padding: 15px;
 }
 body {
-  color: white;
+  color: rgb(211, 211, 211);
   margin: 0;
   overflow-x: hidden;
   max-width: 100vw;
