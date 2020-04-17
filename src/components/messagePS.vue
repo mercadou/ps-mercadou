@@ -114,8 +114,8 @@
               sinta-se livre para adicionar quantos outros filtros quiser.
             </p>
             <li>
-              - Você tem que usar javascript para realizar esse desafio, pode
-              utilizar qualquer framework da linguagem se preferir;
+              - Você tem que usar um framework javascript para realizar esse desafio, pode
+              utilizar qualquer framework da sua preferencia;
             </li>
             <li>
               - O código deve está comentado, explicado seus passos em cada
@@ -137,7 +137,7 @@
               <b>maia@mercadou.com.br</b> contendo o link do repositório do
               projeto. Para evitar cola, sugerimos que você coloque o nome do
               seu repositório usando a seguinte codificação: Meu nome é Gustavo
-              Garcia, meu repositório vai ficar: <b>Gust4v0G4rci4</b>
+              Reis, meu repositório vai ficar: <b>Gust4v0R3is</b>
             </li>
           </v-expansion-panel-content>
         </v-expansion-panel>
