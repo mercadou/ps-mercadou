@@ -105,37 +105,44 @@
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <p class="text-justify">
-              A região de Kanto foi a primeira região conhecida da história de Pokemon,
-              e assim como outras regiões, tem sua pokedex própria: (https://pokeapi.co/api/v2/pokedex/2/).
-              Uma pokedex nada mais é do que uma enciclopédia virtual portátil que os treinadores pokemon
-              transportam para registro e consulta de pokemon (https://pokeapi.co/api/v2/pokemon/{nomeOuNumero}/).
-              O desafio é consumir as informações da API e montar sua própria Pokedex da região de Kanto
-              com todas as informações que achar relevante, com um filtro de pokemon pelo tipo (https://pokeapi.co/api/v2/type/{id}/),
-              sinta-se livre para adicionar quantos outros filtros quiser.
+              A região de Kanto foi a primeira região conhecida da história de
+              Pokemon, e assim como outras regiões, tem sua pokedex própria:
+              (https://pokeapi.co/api/v2/pokedex/2/). Uma pokedex nada mais é do
+              que uma enciclopédia virtual portátil que os treinadores pokemon
+              transportam para registro e consulta de pokemon
+              (https://pokeapi.co/api/v2/pokemon/{nomeOuNumero}/). O desafio é
+              consumir as informações da API e montar sua própria Pokedex da
+              região de Kanto com todas as informações que achar relevante, com
+              um filtro de pokemon pelo tipo
+              (https://pokeapi.co/api/v2/type/{id}/), sinta-se livre para
+              adicionar quantos outros filtros quiser.
             </p>
             <li>
-              - Você tem que usar um framework javascript para realizar esse desafio, pode
-              utilizar qualquer framework da sua preferencia;
+              - Você tem que usar um framework javascript para realizar esse
+              desafio, pode utilizar qualquer framework da sua preferência;
             </li>
             <li>
               - O código deve está comentado, explicado seus passos em cada
               etapa;
             </li>
             <li>
-              - Você pode fazer uma pagina web para mostrar o resultado do
+              - Você deve fazer uma pagina web para mostrar o resultado do
               desafio, você está livre pra usar a criatividade de como vai
               resolver o problema seguindo as instruções;
             </li>
             <li>
-              - Lembre-se que o objeto "types" dentro da resposta de Pokemon possui as URLs dos tipos do pokemon que pode ser consultado na API type para mais informações.
+              - Lembre-se que o objeto "types" dentro da resposta de Pokémon
+              possui as URLs dos tipos do pokémon que pode ser consultado na API
+              type para mais informações.
             </li>
             <li>
-              - Os Ids de tipos vão de 1 até 18, parte do desafio é identificar e tratar nome e Id dos tipos.
+              - Os Ids de tipos vão de 1 até 18, parte do desafio é identificar
+              e tratar nome e ID dos tipos.
             </li>
             <li>
               - O código deve ser enviado para o email:
-              <b>maia@mercadou.com.br</b> contendo o link do repositório do
-              projeto. Para evitar cola, sugerimos que você coloque o nome do
+              <b>tecnologia@mercadou.com.br</b> contendo o link do repositório
+              do projeto. Para evitar cola, sugerimos que você coloque o nome do
               seu repositório usando a seguinte codificação: Meu nome é Gustavo
               Reis, meu repositório vai ficar: <b>Gust4v0R3is</b>
             </li>
